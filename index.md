@@ -12,7 +12,7 @@ hero_image_ratio: is-1by1
 Elève ingénieur en cycle préparatoire
 
 
-Disponible à partir dès maintenant
+Disponible dès maintenant
 
 [tom.baudel@etu.unilasalle.fr](mailto:tom.baudel@etu.unilasalle.fr)
 
