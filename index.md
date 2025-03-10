@@ -8,15 +8,13 @@ hero_image_alt: Ma photo
 hero_image_ratio: is-1by1
 ---
 
-# Prénom NOM
-Elève ingénieur en [préciser sa spécialité]
+# Baudel Tom
+Elève ingénieur en cycle préparatoire
 
 
-Disponible XX mois à partir de Date
+Disponible à partir dès maintenant
 
-[Prenom.Nom[at]xxx.com](mailto:Prenom.Nom@xxx.com)
-
-[LinkedIn](https://www.linkedin.com/in/Prenom.Nom)
+[tom.baudel@etu.unilasalle.fr](mailto:tom.baudel@etu.unilasalle.fr)
 
 Permis B, voiture
 
