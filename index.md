@@ -2,7 +2,7 @@
 layout: promo-page
 title: Qui suis-je?
 menubar: menu_bar
-hero_image: assets/imgs/BT.jpg
+hero_image: assets/imgs/Baudel.jpg
 hero_image_alt: Ma photo
 hero_image_ratio: is-9by16
 ---
