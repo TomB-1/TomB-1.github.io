@@ -1,73 +1,108 @@
 /* Import de nouvelles polices */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap");
 
-/* Définition des nouvelles couleurs */
+/* Définition des nouvelles couleurs et styles */
 :root {
-    --primary-color: #1E1E2E; /* Bleu nuit */
-    --secondary-color: #FF6B6B; /* Rouge pastel */
-    --background-color: #F7F7F7; /* Gris clair */
-    --text-color: #2E2E2E; /* Gris foncé */
-    --accent-color: #4ECDC4; /* Turquoise */
+    --primary-color: #0D1B2A; /* Bleu marine profond */
+    --secondary-color: #E63946; /* Rouge élégant */
+    --background-color: #F1FAEE; /* Blanc cassé */
+    --text-color: #1D3557; /* Bleu foncé */
+    --accent-color: #A8DADC; /* Bleu pastel */
 }
 
 /* Application des styles généraux */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 /* Style du header */
 .navbar {
     background-color: var(--primary-color);
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navbar a {
     color: white;
     font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 /* Section Hero */
 .hero {
-    background-color: var(--primary-color);
+    background: linear-gradient(rgba(13, 27, 42, 0.85), rgba(13, 27, 42, 0.85)), url('background.jpg') center/cover no-repeat;
     color: white;
-    padding: 5rem 2rem;
+    padding: 6rem 2rem;
     text-align: center;
 }
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 300;
+    max-width: 600px;
+    margin: auto;
 }
 
 /* Carte de présentation */
 .card {
     background: white;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: auto;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    margin: 3rem auto;
+    text-align: center;
+}
+.card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+.card p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 /* Style des liens */
 a {
     color: var(--accent-color);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 a:hover {
+    color: var(--secondary-color);
     text-decoration: underline;
 }
 
 /* Image de profil */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid var(--secondary-color);
-    display: block;
-    margin: 20px auto;
+    border: 8px solid var(--secondary-color);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
