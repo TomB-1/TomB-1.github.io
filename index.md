@@ -4,7 +4,7 @@ title: Qui suis-je?
 menubar: menu_bar
 hero_image: assets/imgs/Baudel.jpg
 hero_image_alt: Ma photo
-hero_image_ratio: is-5by4
+hero_image_ratio: is-1by1
 ---
 
 # Baudel Tom
